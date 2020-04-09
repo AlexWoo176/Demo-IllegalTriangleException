@@ -6,6 +6,6 @@ public class IllegalTriangleException extends Exception {
     }
 
     public IllegalTriangleException(double value) {
-        super("Illegal Triangle " + value);
+        super("Illegal Triangle: " + value);
     }
 }

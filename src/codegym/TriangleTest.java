@@ -21,8 +21,9 @@ public class TriangleTest {
                 System.out.println("Area: " + triangle.getArea());
                 System.out.println("Perimeter: " + triangle.getPerimeter());
             } catch (IllegalTriangleException ex) {
-                System.out.println(ex.getMessage());
                 ex.printStackTrace();
+//                System.out.println(ex.getMessage());
+//                System.out.println(ex.toString());
                 System.out.println("Enter three side of the triangle: ");
             }
         } while (enterrepeatSides);

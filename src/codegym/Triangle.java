@@ -23,6 +23,18 @@ public class Triangle {
         this.side3 = side3;
     }
 
+    public double getSide1() {
+        return side1;
+    }
+
+    public double getSide2() {
+        return side2;
+    }
+
+    public double getSide3() {
+        return side3;
+    }
+
     public void setSide1(double side1) {
         this.side1 = side1;
     }

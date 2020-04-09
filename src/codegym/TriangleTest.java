@@ -7,9 +7,9 @@ public class TriangleTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean enterrepeatSides = true;
-
+        System.out.println("Enter three side of the triangle: ");
         do {
-            System.out.println("Enter three side of the triangle: ");
+
             double side1 = scanner.nextDouble();
             double side2 = scanner.nextDouble();
             double side3 = scanner.nextDouble();
@@ -23,6 +23,7 @@ public class TriangleTest {
             } catch (IllegalTriangleException ex) {
                 System.out.println(ex.getMessage());
                 ex.printStackTrace();
+                System.out.println("Enter three side of the triangle: ");
             }
         } while (enterrepeatSides);
 

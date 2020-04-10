@@ -1,4 +1,4 @@
-package codegym;
+package demo.exception;
 
 public class Triangle {
     private double side1;

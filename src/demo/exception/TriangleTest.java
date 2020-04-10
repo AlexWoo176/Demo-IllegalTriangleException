@@ -1,4 +1,4 @@
-package codegym;
+package demo.exception;
 
 import java.util.Scanner;
 
@@ -9,7 +9,6 @@ public class TriangleTest {
         boolean enterrepeatSides = true;
         System.out.println("Enter three side of the triangle: ");
         do {
-
             double side1 = scanner.nextDouble();
             double side2 = scanner.nextDouble();
             double side3 = scanner.nextDouble();
@@ -22,8 +21,6 @@ public class TriangleTest {
                 System.out.println("Perimeter: " + triangle.getPerimeter());
             } catch (IllegalTriangleException ex) {
                 ex.printStackTrace();
-//                System.out.println(ex.getMessage());
-//                System.out.println(ex.toString());
                 System.out.println("Enter three side of the triangle: ");
             }
         } while (enterrepeatSides);
